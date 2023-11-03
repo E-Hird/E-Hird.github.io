@@ -1,3 +1,6 @@
+// This code can be dramatically simplified.
+// Consider parsing the difference in milliseconds between then and now into a date object, then using the get___() methods. 
+
 var then = new Date("Mar 1 1971 12:00:00").getTime();
 
 var x = setInterval(function(){
